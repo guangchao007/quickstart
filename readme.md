@@ -1,3 +1,3 @@
-# Laravel Quickstart - Intermediate - Task List With Authentication
+# Mistcheng's Laravel Quickstart
 
-http://laravel.com/docs/quickstart-intermediate
+## to be continue...
