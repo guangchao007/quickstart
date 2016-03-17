@@ -46,7 +46,7 @@
         ],
         "post-update-cmd": [
             "php artisan optimize",
-            "bower update"
+            "bower update --save"
         ]
     },
     "config": {
