@@ -1,0 +1,21 @@
+{
+  "name": "oukei/quickstart",
+  "description": "mist's private ease tools based on bower",
+  "main": "",
+  "authors": [
+    "mistcheng <guangchao007@126.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/oukei/quickstart",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "resources/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

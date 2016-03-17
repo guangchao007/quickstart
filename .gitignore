@@ -12,3 +12,7 @@ storage/
 .env.php
 .env
 .idea
+
+
+# Bower
+resources/assets/bower_components
