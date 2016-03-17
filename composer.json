@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "oukei/quickstart",
+    "description": "mist's private ease tools based on laravel",
+    "keywords": ["laravel", "tool"],
     "license": "MIT",
     "type": "project",
     "require": {
