@@ -37,6 +37,7 @@ var paths = {
 elixir(function(mix) {
     // js
     mix.scripts(paths.dev.lib + 'jquery/dist/jquery.js', paths.assets.js, '.');
+    mix.scripts(paths.dev.lib + 'bootstrap/dist/js/bootstrap.js', paths.assets.js, '.');
 
     // css
     mix.styles(paths.dev.lib + 'bootstrap/dist/css/bootstrap.css', paths.assets.css, '.');
