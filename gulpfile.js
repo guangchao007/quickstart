@@ -35,10 +35,19 @@ var paths = {
 };
 
 elixir(function(mix) {
-    mix.copy(paths.dev.lib + 'bootstrap/dist/css/bootstrap.css**', paths.assets.css);
+    // js
+    mix.scripts(paths.dev.lib + 'jquery/dist/jquery.js', paths.assets.js, '.');
 
-    mix.less(paths.dev.less + '*.less', paths.assets.css)
-        .version(paths.assets.css);
+    // css
+    mix.styles(paths.dev.lib + 'bootstrap/dist/css/bootstrap.css', paths.assets.css, '.');
+    mix.less(paths.dev.less + '*.less', paths.assets.css);
+
+    // version
+    mix.version([
+        paths.assets.css + '*.css',
+        paths.assets.js + '*.js',
+        paths.assets.img + '*.*'
+    ]);
 
     mix.browserSync({
         proxy: 'quick.me'
