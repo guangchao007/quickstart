@@ -16,6 +16,8 @@ storage/
 # PHPStorm
 .idea
 
-
 # Bower
 resources/assets/bower_components
+
+# gulp
+public
