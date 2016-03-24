@@ -32,4 +32,12 @@ class User extends Authenticatable
     {
         return $this->hasMany(Task::class);
     }
+
+    /**
+     * Get all of the user's subs.
+     */
+    public function subscriptions()
+    {
+        return $this->hasMany('App\Models\Subscription');
+    }
 }
