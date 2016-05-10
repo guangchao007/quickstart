@@ -7,7 +7,8 @@
     "require": {
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
-        "barryvdh/laravel-ide-helper": "v2.1.4"
+        "barryvdh/laravel-ide-helper": "v2.1.4",
+        "dingo/api": "1.0.*@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -46,9 +47,7 @@
             "php artisan clear-compiled"
         ],
         "post-update-cmd": [
-            "php artisan optimize",
-            "npm update",
-            "bower update --save"
+            "php artisan optimize"
         ]
     },
     "config": {
